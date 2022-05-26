@@ -1,0 +1,115 @@
+/* *************************************
+                GENERALS
+************************************* */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    text-align: center;
+    background-color: #7a2048;
+    color: antiquewhite;
+}
+
+fieldset {
+    margin: 1vh 10vh 3vh 10vh;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 50px white;
+    height: 98vh;
+}
+
+legend {
+    font-size: 6rem;
+    background-color: #1e2761;
+    padding: 20px 40px;
+    border-radius: 90px;
+    color: antiquewhite;
+    margin-bottom: 1vh;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+form,
+section,
+article {
+    font-size: 2rem;
+    width: 40vw;
+    height: 14vh;
+    margin: 0 auto;
+    background-color: #7a2048;
+    padding: 20px 40px;
+    border-radius: 60px;
+    border: 3px solid #7a2048;
+}
+
+.user-comp {
+    padding: 0 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: #7a2048; */
+    padding: 2vh 8vh;
+}
+
+.las {
+    color: antiquewhite;
+    background: #1e2761;
+    font-size: 130px;
+    border-radius: 50%;
+    padding: 0 2vh;
+}
+
+h5,
+h5>span,
+h4 {
+    font-size: 3.1rem;
+}
+
+label,
+section {
+    font-size: 2rem;
+}
+
+section {
+    width: 50vw;
+}
+
+
+/* *************************************
+        ROCK PAPER & SCISSORS
+************************************* */
+[alt="rock"],
+[alt="scissors"],
+[alt="paper"] {
+    border: 3px solid #ecc19c;
+    border-radius: 50%;
+    box-shadow: 0 0 30px #ecc19c;
+    margin: 4vh 4vw;
+    height: 170px;
+    width: 170px
+}
+
+/* *************************************
+                RESTART
+************************************* */
+h4 {
+    background-color: #1e2761;
+    border: 3px solid #1e2761;
+    border-radius: 60px;
+    padding: 20px 40px;
+    margin: 1vh auto;
+}
+
+body>fieldset>h2 {
+    color: #7a2048;
+    font-size: 4rem;
+}
+
+body>fieldset>h4 {
+    width: 20vw;
+}

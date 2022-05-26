@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schere Stein Papier</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+
+<body>
+    <fieldset>
+        <legend>ROCK PAPER SCISSORS</legend>
+        <form action="">
+            <h2>How many rounds?</h2>
+            <h2 id="roundOutput"></h2>
+            <div id="hide">
+                <label for="">5</label>
+                <input type="radio" name="rounds" id="5rounds" value="5" checked>
+                <label for="">10</label>
+                <input type="radio" name="rounds" id="10rounds" value="10">
+                <label for="">15</label>
+                <input type="radio" name="rounds" id="15rounds" value="15">
+                <label for="">20</label>
+                <input type="radio" name="rounds" id="20rounds" value="20">
+
+            </div>
+        </form>
+        <div class="user-comp">
+            <i class="las la-user"></i>
+            <section>
+                <h5><span id="outputUser">0</span> : <span id="outputComputer">0</span></h5>
+                <h4 id="outputInfo">Start the Game</h4>
+            </section>
+            <i class="las la-robot"></i>
+        </div>
+        <div>
+            <img src="assets/img/RockK.webp" alt="rock" id="rock" onclick="klickKlackRock()">
+            <img src="assets/img/PaperR.webp" alt="paper" id="paper" onclick="klickKlackPaper()">
+            <img src="assets/img/ScissorsS.webp" alt="scissors" id="scissors" onclick="klickKlackScissors()">
+        </div>
+
+        <h2>Choose and move!</h2>
+        <h4 onclick="restart()">RESTART</h4>
+
+    </fieldset>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
